@@ -3,14 +3,14 @@
     "76,73,8,229,229,252,174,203,227,103,54,94,14,24,112,244,19,236,141,16,17,111,207,121,132,198,89,59,130,52,11,74": {
       "text": "menu",
       "mentionedJid": [],
-      "creator": "6289501060783@s.whatsapp.net",
+      "creator": "6285850539404@s.whatsapp.net",
       "at": 1651508907923,
       "locked": false
     },
     "208,210,69,3,82,224,86,23,170,198,28,146,97,174,45,168,23,175,89,150,54,218,221,117,0,198,178,11,62,148,231,101": {
       "text": "#dashboard",
       "mentionedJid": [],
-      "creator": "6289501060783@s.whatsapp.net",
+      "creator": "6285850539404@s.whatsapp.net",
       "at": 1652015908952,
       "locked": false
     }
@@ -18,7 +18,7 @@
   "database": {
     "tes": {
       "key": {
-        "remoteJid": "6289501060783@s.whatsapp.net",
+        "remoteJid": "6285850539404@s.whatsapp.net",
         "fromMe": false,
         "id": "5840B39470064EBC40DEFD2CE49320C8"
       },
@@ -28,7 +28,7 @@
     },
     "tws": {
       "key": {
-        "remoteJid": "6289501060783@s.whatsapp.net",
+        "remoteJid": "6285850539404@s.whatsapp.net",
         "fromMe": false,
         "id": "5C17FA94B7E0808E56D4ADA153018674"
       },
@@ -50,7 +50,7 @@
     },
     "love": {
       "key": {
-        "remoteJid": "6289501060783@s.whatsapp.net",
+        "remoteJid": "6285850539404@s.whatsapp.net",
         "fromMe": false,
         "id": "8F417E0E0BAE00595E12658A044630D5"
       },
@@ -71,7 +71,7 @@
     },
     "takut": {
       "key": {
-        "remoteJid": "6289501060783@s.whatsapp.net",
+        "remoteJid": "6285850539404@s.whatsapp.net",
         "fromMe": false,
         "id": "DCA292CA07D28EA26CFB79710F441E0D"
       },
