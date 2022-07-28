@@ -1,7 +1,7 @@
 /** 
- - Create By Deff
- - Contact Me on https://wa.me/+6289501060783
- - Follow iG : @deff.xyz
+ - Create By Jarot
+ - Contact Me on https://wa.me/+6285850539404
+ - Follow iG : @Oscar_botz
  - Thanks Dika Ardente & Zack Mans & Thunder Team & Xnone Team
 */
 process.on('uncaughtException', console.error) //Safe Log Error
@@ -583,11 +583,11 @@ message: {
 "mimetype": "image/jpeg",
 "jpegThumbnail": log0 //Gambarnye
 },
-"title": "MyMans APIs", //Kasih namalu 
+"title": "My Jarot", //Kasih namalu 
 "description": "SELF BOT", 
 "currencyCode": "USD",
 "priceAmount1000": "2000",
-"retailerId": "MyMans",
+"retailerId": "MyJarot",
 "productImageCount": 1
 },
 "businessOwnerJid": `0@s.whatsapp.net`
@@ -641,7 +641,7 @@ const fvideo = {
 key: { 
 fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ? 
-{ remoteJid: "6289643739077-1613049930@g.us" } : {}) 
+{ remoteJid: "6285850539404-1613049930@g.us" } : {}) 
 },
 message: { 
 "videoMessage": { 
