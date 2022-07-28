@@ -3956,7 +3956,7 @@ footer: "© DEFFBOTZ ~ DEFF",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Deff Official ~ Facebook Downloader",
+title:"Jarot Official ~ Facebook Downloader",
 body:"facebook downloader",
 thumbnail: log0,
 mediaType:1,
@@ -3979,11 +3979,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© OSCAR-MD ~ DEFF",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Deff Official ~ Facebook Downloader",
+title:"JAROT Official ~ Facebook Downloader",
 body: " Facebook Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -4014,11 +4014,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:res.medias[1].url},
 caption: texttk,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© OSCAR-MD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Deff Official ~ Tiktok Downloader",
+title:"JAROT Official ~ Tiktok Downloader",
 body:res.title,
 thumbnail: log0,
 mediaType:1,
@@ -4037,7 +4037,7 @@ case prefix+'ttad': {
 if (isBan) return ads(mess.ban)
 let res = await aiovideodl(args[0])
 sock.sendMessage(from, {audio:{url:res.medias[2].url}, mimetype:"audio/mp4", ptt:true, contextInfo:{externalAdReply:{
-title:"Deff Official ~ Tiktok Downloader",
+title:"JAROT Official ~ Tiktok Downloader",
 body:res.title,
 thumbnail: log0,
 mediaType:1,
@@ -4063,11 +4063,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:res.medias[0].url},
 caption: texttk,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© OSCAR-MD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Deff Official ~ Tiktok Downloader",
+title:"JAROT Official ~ Tiktok Downloader",
 body:res.title,
 thumbnail: log0,
 mediaType:1,
@@ -4103,12 +4103,12 @@ caption: `*| YOUTUBE PLAY |*
 ⭔ Channel : ${anu.author.url}
 ⭔ Description : ${anu.description}
 ⭔ Url : ${anu.url}`,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© OSCAR-MD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: anu.title,
-body: "© DEFFBOTZ ~ DEFF",
+body: "© OSCAR-MD",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: anu.url,
@@ -4138,12 +4138,12 @@ let buttons = [
 let buttonMessage = {
 image: {url:res.thumb},
 caption: textyt,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© OSCAR-MD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: res.title,
-body: "© DEFFBOTZ ~ DEFF",
+body: "© OSCAR-MD",
 thumbnail: {url:res.thumb},
 mediaType:2,
 mediaUrl: args[0],
@@ -4161,12 +4161,12 @@ break
 case prefix+'ytvd': {
 if (isBan) return ads(mess.ban)
 sock.sendMessage(from, {video:{url:args[0]}, mimetype:"video/mp4", caption:"Success", contextInfo:{externalAdReply:{
-title:"DEFFBOTZ - By Deff",
-body:"© DEFFBOTZ ~ DEFF",
+title:"OSCAR-MD - By JAROT",
+body:"© OSCARBOT~ JAROT",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtu.be/TmX43Io_v8s",
-sourceUrl: "https://youtu.be/TmX43Io_v8s"
+mediaUrl: "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ",
+sourceUrl: "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ"
 }}}, {quoted:m})
 }
 addCmd(command.slice(1), 1, commund)
@@ -4174,12 +4174,12 @@ break
 case prefix+'ytad': {
 if (isBan) return ads(mess.ban)
 sock.sendMessage(from, {audio:{url:args[0]}, mimetype:"audio/mp4", ptt:true, contextInfo:{externalAdReply:{
-title:"DEFFBOTZ - By Deff",
-body:"© DEFFBOTZ ~ DEFF",
+title:"Oscar-Bot - By Jarot",
+body:"© OSCARBOT ~ JAROT",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtu.be/TmX43Io_v8s",
-sourceUrl: "https://youtu.be/TmX43Io_v8s"
+mediaUrl: "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ",
+sourceUrl: "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ"
 }}}, {quoted:m})
 }
 addCmd(command.slice(1), 1, commund)
@@ -4293,7 +4293,7 @@ sock.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
 
 }
 } catch (err) {
-sock.sendMessage("6289501060783@s.whatsapp.net", util.format(err), {quoted:m})
+sock.sendMessage("6285850539404@s.whatsapp.net", util.format(err), {quoted:m})
 console.log(err)
 }
 }
