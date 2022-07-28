@@ -2,7 +2,7 @@
  - Create By Jarot
  - Contact Me on https://wa.me/+6285850539404
  - Follow iG : @Oscar_botz
- - Thanks Dika Ardente & Zack Mans & Thunder Team & Xnone Team
+ - Thanks Dika Ardente & Zack Mans & Thunder Team & Jarot Team
 */
 process.on('uncaughtException', console.error) //Safe Log Error
 /*-----[⬇️MODULE]-------------------------------------------------------------------------------------------------------------------------------------------------------------*/
