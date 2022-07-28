@@ -11,24 +11,24 @@ const chalk = require("chalk")
 global.thum = fs.readFileSync("./worker/media/image/thumb.jpg")
 global.log0 = fs.readFileSync("./worker/media/image/thumb.jpg")
 global.err4r = fs.readFileSync("./worker/media/image/thumb.jpg")
-global.owner = ['6289501060783','6289501060783','6289501060783']
+global.owner = ['6285850539404','6285850539404','6285850539404']
 global.rkyt = []
 global.banUser = ['6281366679021@s.whatsapp.net']
 global.ntilink = ['120363043965529911@g.us','120363022988111568@g.us']
 global.wlcm = ['120363043965529911@g.us','120363023112413670@g.us','19054091487-1424650263@g.us','120363022988111568@g.us']
 global.gcrevoke = ['19054091487-1424650263@g.us']
-global.packname = "Buatan Siapa? Buatan Daffa\nMau nomor nya? 089501060783\nOrangnya ganteng dan baik\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
-global.packname2 = "BY Daffa ~ Yudhistira"
-global.author = "WM DAFFA"
+global.packname = "Jarot offc"
+global.packname2 = "BY Jarot offc"
+global.author = "WM JAROT"
 global.sessionName = "session"
-global.linkgrupss = "https://chat.whatsapp.com/KHyGMBYD9OG1lvgGHFYzKy"
+global.linkgrupss = "https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL"
 global.antitags = true
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.mess = {
     success: 'Success',
-    admin: 'Fitur Khusus Admin Group!',
-    botAdmin: 'Bot Harus Menjadi Admin Terlebih Dahulu!',
-    owner: 'Fitur Khusus Owner Bot',
+    admin: 'Emang lu Admin Group!',
+    botAdmin: 'Bot bukan admin dek:v',
+    owner: 'Emang lu Owner Bot',
     group: 'Fitur Digunakan Hanya Untuk Group!',
     private: 'Fitur Digunakan Hanya Untuk Private Chat!',
     bot: 'Fitur Khusus Pengguna Nomor Bot',
