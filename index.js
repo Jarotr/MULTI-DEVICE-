@@ -1,9 +1,9 @@
 /**
- - Create By DEFF
- - Contact Me on https://wa.me/+6289501060783
- - Follow iG : @deff.xyz
+ - Create By JAROT
+ - Contact Me on https://wa.me/+6285850539404
+ - Follow iG : @oscarbotz
  - Thanks Dika Ardnt & Zackmans
- - Jangan lu ubah tqtq disini
+ - Oscar
 */
 require("./connect/config.js")
 const { default: sockConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
@@ -33,18 +33,18 @@ async function __START() {
     const sock = sockConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Deff Multi Device','Safari','1.0.0'],
+        browser: ['JAROT Multi Device','Safari','1.0.0'],
         auth: state,
         version
     })
-console.log(color('[DEFF CHAN]', 'cyan'), color('Bot Online', 'yellow'))
+console.log(color('[OSCAR-MD]', 'cyan'), color('Bot Online', 'yellow'))
 console.log(color('[WARNING]', 'cyan'), color(`INGFO CREATOR`, 'yellow'))
-console.log(color('Instagram :', 'cyan'), color(`@deff.xyz`, 'yellow'))
-console.log(color('Github :', 'cyan'), color(`@DEFF1602`, 'yellow'))
-console.log(color('Wangsap :', 'cyan'), color(`089501060783`, 'yellow'))
+console.log(color('Instagram :', 'cyan'), color(`@oscarbotz_`, 'yellow'))
+console.log(color('Github :', 'cyan'), color(`@Jarotr`, 'yellow'))
+console.log(color('Wangsap :', 'cyan'), color(`085850539404`, 'yellow'))
 console.log(color('\n', 'cyan'), color('\nWelcome back, Owner! Hope you are doing well~', 'yellow'))
 
-sock.browserDescription = ["DEFF-MD", "Mac", "3.0.0"];
+sock.browserDescription = ["JAROT-MD", "Mac", "3.0.0"];
 sock.ev.on('messages.upsert', async chatUpdate => {
 try {
 mek = chatUpdate.messages[0]
@@ -109,7 +109,7 @@ let buttons = [
 let buttonMessage = {
 image: await getBuffer(ppuser), 
 caption: mbc,
-footer: "© DEFFBOTZ - BY - DEFF",
+footer: "© OSCAR-MD BY JAROT",
 mentions:[orgnye],
 buttons: buttons,
 headerType: 4,
