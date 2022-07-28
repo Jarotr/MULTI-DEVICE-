@@ -1,7 +1,7 @@
 /**
- - Create By ZackMans Official
- - Contact Me on https://wa.me/+6281385062956
- - Follow iG : @salman_alfarizi_15
+ - Create By Oscar-Md
+ - Contact Me on https://wa.me/+6285850539404
+ - Follow iG : @Oscar_bot
 */
 
 const fs = require("fs")
