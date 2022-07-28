@@ -1,10 +1,10 @@
 {
- "name": "Deff",
+ "name": "Jarot",
  "description": "Whatsapp Using Lib Baileys Multi Device",
  "version": "1.0.1",
  "main": "index.js",
  "type": "commonjs",
- "scripts": {
+ "scripts": "CEK YOUTUBE"
   "start": "node index"
  },
  "keywords": [
@@ -18,7 +18,7 @@
   "bot-md",
   "multi-device"
  ],
- "author": "DEFF",
+ "author": "JAROT",
  "license": "MIT",
  "dependencies": {
   "@adiwajshing/baileys": "^4.1.0",
