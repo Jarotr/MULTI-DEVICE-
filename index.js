@@ -181,7 +181,7 @@ const jamny = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 	for (let i of kon) {
 	    list.push({
 	    	displayName: await sock.getName(i + '@s.whatsapp.net'),
-	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await sock.getName(i + '@s.whatsapp.net')}\nFN:${await sock.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Ponsel\nitem2.EMAIL;type=INTERNET:dyudhistira51@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://instagram.com/deff.xyz\nitem3.X-ABLabel:Instagram\nitem4.ADR:;;Indonesia;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
+	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await sock.getName(i + '@s.whatsapp.net')}\nFN:${await sock.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Ponsel\nitem2.YOUTUBE;type=INTERNET:https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ\nitem2.X-ABLabel:Youtube\nitem3.URL:https://instagram.com/oscarbotz_\nitem3.X-ABLabel:Instagram\nitem4.ADR:;;Indonesia;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
 	    })
 	}
 	sock.sendMessage(jid, { contacts: { displayName: `${list.length} Kontak`, contacts: list }, ...opts }, { quoted })
