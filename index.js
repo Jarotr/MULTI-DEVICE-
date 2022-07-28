@@ -2,7 +2,7 @@
  - Create By JAROT
  - Contact Me on https://wa.me/+6285850539404
  - Follow iG : @oscarbotz
- - Thanks Dika Ardnt & Zackmans
+ - Thanks Dika Ardnt & JAROT
  - Oscar
 */
 require("./connect/config.js")
